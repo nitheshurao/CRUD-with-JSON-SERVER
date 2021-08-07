@@ -1,5 +1,6 @@
 import React from "react";
-
+// import "ContactAdd.css";
+import './Css/ContactAdd.css';
 class AddContact extends React.Component {
     state = {
         name: "",
@@ -14,6 +15,7 @@ class AddContact extends React.Component {
         }
         this.props.addContactHandler(this.state);
         this.setState({ name: "", email: "" });
+        this.props.history.push("/");
     };
     render() {
         return (
@@ -40,7 +42,7 @@ class AddContact extends React.Component {
                             onChange={(e) => this.setState({ email: e.target.value })}
                         />
                     </div>
-                    <button className="ui button blue">Add</button>
+                    <button className="btn">Add</button>
                 </form>
             </div>
         );

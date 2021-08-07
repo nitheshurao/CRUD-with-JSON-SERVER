@@ -1,0 +1,34 @@
+.item{
+    /* padding: 20px;
+    border-radius: 20px;
+    /* color: blue; */
+    /* background-color: rgb(238, 189, 234);  */
+
+
+}
+/* .content{
+ padding: 10px;
+} */
+.header{
+    padding: 10px;
+    border: 20px solid white;
+    border-radius: 20px;
+}
+.trash alternate outline icon{
+    color: yellow;
+}
+.name{
+    /* border-radius: 20px; */
+    padding: 20px;
+    background-color: rgb(235, 213, 213);
+}
+.email{
+    /* border-radius: 20px; */
+    padding: 20px;
+    background-color: rgb(241, 228, 228); 
+}
+.content{
+    background-color: yellow;
+    padding: 20px;
+    border: 20px;
+}

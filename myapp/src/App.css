@@ -5,19 +5,40 @@
 .center {
   justify-content: center;
   padding: 10px;
+  background-color: aqua;
 }
 
+/* .ui container{
+  justify-content: center;a
+  padding: 10px; 
+} */
 .ui.search input {
   width: 100%;
+  background-color: blue;
   border-radius: 0 !important;
 }
 
 .item {
-  padding: 15px 0px !important;
+  /* padding: 15px 0px  !important; */
+  /* background-color: blueviolet;
+  margin: 10px;
+  padding: 20px;
+ 
+  border: 2px solid;
+  border-radius: 10px;
+ background-color: rgb(196, 245, 248); */
 }
 
 i.icon {
   float: right;
   font-size: 20px;
   cursor: pointer;
+}
+.AddItem{
+  /* margin: 10px;
+  padding: 20px;
+ 
+  border: 2px solid;
+  border-radius: 10px;
+ background-color: rgb(196, 245, 248); */
 }
